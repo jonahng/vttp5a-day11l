@@ -21,3 +21,15 @@ mvnw.cmd spring-boot:run
 • mvn spring-boot:run -Dspring-boot.run.arguments=“--port=3000
 <space>--logLevel=TRACE”
 
+
+
+
+
+the railway may fail because it only works for java 17 and earlier. to make it work, must ownself dockerize it and then run.
+
+in command prompt, to deploy to railway
+railway login
+railway link       -- links railway to the project
+railway up         -- runs the project in railway
+
+Once the project is deployed, go to railway>Settings generate publicdomain to make it public and have URL
