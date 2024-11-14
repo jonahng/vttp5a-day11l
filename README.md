@@ -33,3 +33,5 @@ railway link       -- links railway to the project
 railway up         -- runs the project in railway
 
 Once the project is deployed, go to railway>Settings generate publicdomain to make it public and have URL
+
+use postman to act as a client to probe the website and see what is returned by the server
