@@ -14,7 +14,7 @@ public class Vttp5aDay11lApplication {
 
 	public static void main(String[] args) {
 		//SpringApplication.run(Vttp5aDay11lApplication.class, args);
-		SpringApplication app = new SpringApplication(vttp5a-day11l.class);
+		SpringApplication app = new SpringApplication(Vttp5aDay11lApplication.class);
 		String port = "4000";
 		ApplicationArguments argsOptions = new DefaultApplicationArguments(args);
 
@@ -29,6 +29,8 @@ public class Vttp5aDay11lApplication {
 			dirFile = argsOptions.getOptionValues("file").get(0);
 			System.out.println("Directory file: " + dirFile);
 		}
+
+		app.run(args);
 	}
 	//by default it starts on port 8080
 	

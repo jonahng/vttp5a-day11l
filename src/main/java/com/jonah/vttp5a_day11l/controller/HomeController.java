@@ -29,4 +29,11 @@ public class HomeController {
 
     }
 
+    @RequestMapping(path="/home", method=RequestMethod.GET)
+    public String homePage(){
+        return "home";
+    }
+
+
+
 }
